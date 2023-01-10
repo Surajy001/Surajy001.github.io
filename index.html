@@ -1,62 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    
+    <title> PortFolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
-<body>
-    <nav class="nav">
-        <div class="container">
-            <h1 class="logo"><a href="index.htm"></a></h1>
-            <ul>
-                <li><a href="index.html" >Home</a></li>
-                <li><a href="#about" data-scroll>About Me</a></li>
-                <li><a href="#skills" data-scroll>Skills</a></li>
-                <li><a href="#projects" data-scroll>Projects</a></li>
-                <li><a href="#contact" data-scroll>Contact</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <div>
-        <div>
-            <h1>
-                <br>
-                <span class="site-title">SURAJ YADAV</span>
-                <span class="site-description">Programmer • Full Stack Web Developer </span>
-              </h1>
-        </div>
+<body>
+<!-- Navbar  Section Start -->
+<header>
+    <a href="#" class="logo">Port<span>Folio</span></a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="bx bx-moon" id="darkmode"></div>
+    </ul>
+</header>
+<!-- Navbar Section End -->
+
+<!-- Home Section Start -->
+<section class="home" id="home">
+    <div class="social">
+        <a href="#"><i class='bx bxl-github'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+    </div>
+    <div class="home-img">
+        <img src="main.png" alt="">
+    </div>
+    <div class="home-text">
+        <span>Hello, I'm</span>
+        <h1>Suraj Yadav</h1>
+        <h2>Full Stack Web Developer</h2>
+        <p>Lorem ipsum dolor sit amet cons <br> adipisicing elit. Minima, consectetur <br> ullam?</p>
+        <a href="#contact" class="btn">Download CV</a>
+    </div>
+</section>
+<!-- Home Section End -->
+
+<!-- About Section Start -->
+
+<section class="about" id="about">
+    <div class="heading">
+        <h2>About Me</h2>
+        <span>Introduction</span>
     </div>
 
-    <!-- Details -->
-    <section id="about">
-        <!-- About Me -->
-        <div class="user-details">
-            <h1>My Story</h1>
-            <picture>
-              <img
-                type="image/webp"
-                srcset=""
-                alt="Me"
-                width="200px"
-                style="border-radius: 50%"
-                height="200px"
-              />
-            </picture>
-            <p>
-              I am a Full stack web developer doing militry style coding and learning MERN Stack at Masai School. 
-              I have done various group as well as individual projects in my coding journey.
-            </p>
-          </div>
-          <!-- Skills-->
-          <h1 id="skills" style="text-align:center; margin-bottom: -10px;">Technical Skills</h1>
-            <div>
-                <div> </div>
-            </div>
+    <div class="about-container">
+        <div class="about-img">
+            <img src="main.png" alt="">
+        </div>
+        <div class="about-text">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Ad repellendus perferendis minus sunt error eos dicta enim accusantium ipsum
+                veniam debitis quasi sint cum fugiat porro quam, blanditiis a ratione quod!</p>
+            <div class="information">
+                <div class="info-box">
+                    <i class='bx bxs-user'></i>
+                    <span>Name</span> - <h3>Suraj Yadav</h3>
+                </div>
 
-    </section>
+                <div class="info-box">
+                    <i class='bx bxs-phone'></i>
+                    <span>7890867391</span>
+                </div>
+
+                <div class="info-box">
+                    <i class='bx bxs-envelope'></i>
+                    <span>surajyadav9874@gmail.com</span>
+                </div>
+            </div>
+            <a href="#" class="btn">Download Cv</a>
+        </div>
+    </div>
+</section>
+<!-- About Section End -->
+
+<!-- Skills Section Start -->
+
+<section class="skills" id="skills">
+    <div class="heading">
+        <h2>Skills</h2>
+        <!-- <span>My Skills</span> -->
+    </div>
+
+    
+</section>
+<!-- Skills Section End -->
+
+<!-- Projects Section Start -->
+<section class="projects" id="projects">
+    <div class="heading">
+        <h2>Project</h2>
+        <!-- <span>Our projects</span> -->
+    </div>
+    
+</section>
+<!-- Projects Section End -->
+
+<!-- Contact Section Start -->
+<section class="contact" id="contact">
+    <div class="heading">
+        <h2>Contact</h2>
+        <!-- <span>Connect With Us</span> -->
+    </div>
+    <div class="contact-form">
+        <form action="">
+            <input type="text" placeholder="Your Name">
+            <input type="email" name="" id="" placeholder="Your Email">
+            <textare name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textare>
+                                <input type="button" value="Send" class="contact-button">
+                                </form>
+                            </div>
+                            </section>
+                            <!-- Contact Section End -->
+                         <div class="footer">
+                                <h2>Follow Me</h2>
+                                <div class="footer-social">
+                                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                                </div>
+
+                            </div>
+
+                            <div class="copyright">
+                                © PortFolio </p>
+                            </div>
+                            <!-- Javascript -->
+                            <script src="script.js"></script>
 </body>
+
 </html>
