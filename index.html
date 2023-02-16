@@ -19,12 +19,12 @@
     <div class="bx bx-menu" id="menu-icon"></div>
 
     <ul class="navbar" id="nav-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="./Resume/Suraj-Yadav-Resume.pdf" download="Suraj-Yadav-Resume" >Resume</a>
+        <li class="nav-link home"><a href="#home">Home</a></li>
+        <li class="nav-link about"><a href="#about">About Me</a></li>
+        <li class="nav-link skills"><a href="#skills">Skills</a></li>
+        <li class="nav-link projects"><a href="#projects">Projects</a></li>
+        <li class="nav-link contact"><a href="#contact">Contact</a></li>
+        <li class="nav-link resume"><a id="resume-link-1" href="./Resume/Suraj-Yadav-Resume.pdf" download="Suraj-Yadav-Resume" >Resume</a>
         </li>
         <div class="bx bx-moon" id="darkmode"></div>
     </ul>
@@ -32,14 +32,14 @@
 <!-- Navbar Section End -->
 
 <!-- Home Section Start -->
-<section class="home" id="home">
+<section id="home">
     <div class="home-text">
       <span>Hello, I'm</span>
-      <h1>Suraj Yadav</h1>
+      <h1 id="user-detail-name">Suraj Yadav</h1>
       <h2>Full Stack Web Developer</h2>
-      <a href="./Resume/Suraj-Yadav-Resume.pdf" download="Suraj-Yadav-Resume" class="btn">Resume</a>
+      <a id="resume-link-2" href="./Resume/Suraj-Yadav-Resume.pdf" download="Suraj-Yadav-Resume" class="btn">Resume</a>
   </div>
-    <div class="home-img">
+    <div class="home-img1" >
         <img src="https://camo.githubusercontent.com/7b0d7056cf528da8971844af6dab6d746144ac7ef9b77af605ab7e3d3bc8a458/68747470733a2f2f6c6f6769636d6f6a6f2e636f6d2f6173736574732f646973742f6e65775f70616765732f696d616765732f6a732d6769662e676966" alt="">
     </div>
     
@@ -49,17 +49,17 @@
 
 
 <!-- About Section Start -->
-<section class="about about section" id="about">
+<section class="about section" id="about">
     <div class="heading">
         <h2>About Me</h2>
         <span>Introduction</span>
     </div>
 
     <div class="about-container">
-        <div class="about-img">
+        <div class="home-img">
             <img src="image/suraj_yadav.png" alt="suraj_yadav">
         </div>
-        <div class="about-text">
+        <div class="about-text" id="user-detail-intro">
             <p> I enjoy taking complex problems and turning them into simple and
                 beautiful websites. I also love the logic and structure of
                 coding and always strive to write elegant and efficient code.</p>
@@ -77,20 +77,20 @@
             <div class="information">
                 <div class="info-box">
                     <i class='bx bxs-user'></i>
-                    <span>Name</span> - <h3>Suraj Yadav</h3>
+                    <span>Name</span> - <h3 id="user-detail-name">Suraj Yadav</h3>
                 </div>
 
                 <div class="info-box">
                     <i class='bx bxs-phone'></i>
-                    <span>7890867391</span>
+                    <span id="contact-phone">7890867391</span>
                 </div>
 
                 <div class="info-box">
                     <i class='bx bxs-envelope'></i>
-                    <span>surajyadav9874@gmail.com</span>
+                    <span  id="contact-email">surajyadav9874@gmail.com</span>
                 </div>
             </div>
-            <a href="./Resume/Suraj-Yadav-Resume.pdf" download="Suraj-Yadav-Resume" class="btn">Resume</a>
+            <a id="resume-link-2" href="./Resume/Suraj-Yadav-Resume.pdf" download="Suraj-Yadav-Resume" class="btn">Resume</a>
         </div>
     </div>
 </section>
@@ -106,33 +106,42 @@
     </div>
     <div class="skills-content">
         <div class="skills-box">
-            <img src="./image/html1.png" alt="html">
+            <img class="skills-card-img" src="./image/html1.png" alt="html" />
+            <h4 class="skills-card-name" >HTML</h4>
         </div>
 
         <div class="skills-box">
-            <img src="./image/css.png" alt="css">
+            <img class="skills-card-img" src="./image/css.png" alt="css" />
+            <h4 class="skills-card-name" >CSS</h4>
         </div>
         <div class="skills-box">
-            <img src="./image/js.png" alt="js">
+            <img class="skills-card-img" src="./image/js.png" alt="js" />
+            <h4 class="skills-card-name" >JS</h4>
         </div>
 
         <div class="skills-box">
-            <img src="./image/react1.png" alt="react">
+            <img class="skills-card-img" src="./image/react1.png" alt="react" />
+            <h4 class="skills-card-name" >React</h4>
         </div>
         <div class="skills-box">
-            <img src="./image/redux.png" alt="redux">
+            <img class="skills-card-img" src="./image/redux.png" alt="redux" />
+            <h4 class="skills-card-name" >Redux</h4>
         </div>
         <div class="skills-box">
-            <img src="./image/npm.png" alt="npm">
+            <img class="skills-card-img" src="./image/npm.png" alt="npm" />
+            <h4 class="skills-card-name" >npm</h4>
         </div>
         <div class="skills-box">
-            <img src="./image/chakra-ui.jpg" alt="chakra">
+            <img class="skills-card-img" src="./image/chakra-ui.jpg" alt="chakra" />
+            <h4 class="skills-card-name" >Chakra-ui</h4>
         </div>
         <div class="skills-box">
-            <img src="./image/github.png" alt="github">
+            <img class="skills-card-img" src="./image/github.png" alt="github" />
+            <h4 class="skills-card-name" >GitHub</h4>
         </div>
         <div class="skills-box">
-            <img src="./image/vscode.png" alt="vscode">
+            <img class="skills-card-img" src="./image/vscode.png" alt="vscode" />
+            <h4 class="skills-card-name" >VS Code</h4>
         </div>
     
 </section>
@@ -147,10 +156,11 @@
 </div>
   
 <div class="projects-container">
-   <div class="projects-box">
+   <div class="project-card">
      <img src="./image/jiomart.png" alt="jiomart">
-     <div class="projects-descriptions"> <p>JioMart is a multicategory online shopping platform, that currently offers a wide range of Groceries and Daily wear Fashion, to start with. The platform offers consumers a convenience of shopping from home, with a promise of great savings, free home delivery and no minimum order value.</p> </div>
-     <div class="projects-tech-stack">
+     <div class="projects-descriptions"> <h3 class="project-title">JioMart</h3> </div>
+     <div class="projects-descriptions"> <p class="project-description">JioMart is a multicategory online shopping platform, that currently offers a wide range of Groceries and Daily wear Fashion, to start with. The platform offers consumers a convenience of shopping from home, with a promise of great savings, free home delivery and no minimum order value.</p> </div>
+     <div class="project-tech-stack">
       <h4 style="padding: 10px;">Tech Stack</h4>
       <img src="./image/html1.png" alt="html">
       <img src="./image/css.png" alt="css">
@@ -158,45 +168,66 @@
      </div>
     
      <div class="projects-button">
-      <button> <a href="https://celebrated-druid-37bbf7.netlify.app/" target="_blank" class="see-project">Live💻</a></button>
-      <button><a href="https://github.com/Surajy001/panoramic-error-8656" target="_blank" class="github-repo">GitHub</a></button>
+      <button> <a class="project-deployed-link" href="https://celebrated-druid-37bbf7.netlify.app/" target="_blank" class="see-project">Live💻</a></button>
+      <button><a class="project-github-link" href="https://github.com/Surajy001/panoramic-error-8656" target="_blank" class="github-repo">GitHub</a></button>
      </div>
     </div>
 
-   <div class="projects-box">
+   <div class="project-card">
     <img src="./image/hello_bonsai.png" alt="hello_bonsai">
+    <div class="projects-descriptions"> <h3 class="project-title">Hello Bonsai</h3> </div>
     <div class="projects-descriptions"> <p>Hello Bonsai is a freelancing management web application by which users can track their time and generate invoices.It allows freelances to track clients, get paid, and do taxes.</p> </div>
-    <div class="projects-tech-stack">
+    <div class="project-tech-stack">
       <h4 style="padding: 10px;">Tech Stack</h4>
       <img src="./image/html1.png" alt="html">
       <img src="./image/css.png" alt="css">
       <img src="./image/js.png" alt="js">
      </div>
      <div class="projects-button">
-      <button> <a href="https://monumental-crisp-761be5.netlify.app/" target="_blank" class="see-project">Live💻</a></button>
-      <button><a href="https://github.com/masum-raja/HelloBonsai" target="_blank" class="github-repo">GitHub</a></button>
+      <button> <a class="project-deployed-link" href="https://monumental-crisp-761be5.netlify.app/" target="_blank" class="see-project">Live💻</a></button>
+      <button><a class="project-github-link" href="https://github.com/masum-raja/HelloBonsai" target="_blank" class="github-repo">GitHub</a></button>
      </div>
    </div>
 
-   <div class="projects-box">
+   <div class="project-card">
     <img src="./image/sugar_cosmetics.png" alt="sugar_cosmetics">
+    <div class="projects-descriptions"> <h3 class="project-title">Sugar Cosmetics</h3> </div>
     <div class="projects-descriptions"> <p>Sugar Cosmetics is one of India's fastest-growing premium cosmetic companies.Sugar Cosmetic is an e-commerce website that sells cosmetics products. </p> </div>
-    <div class="projects-tech-stack">
+    <div class="project-tech-stack">
       <h4 style="padding: 10px;">Tech Stack</h4>
       <img src="./image/html1.png" alt="html">
       <img src="./image/css.png" alt="css">
       <img src="./image/js.png" alt="js">
      </div>
      <div class="projects-button">
-      <button> <a href="https://steady-empanada-83da41.netlify.app/" target="_blank" class="see-project">Live💻</a></button>
-      <button><a href="https://github.com/pranali412/bustling-wheel-1520" target="_blank" class="github-repo">GitHub</a></button>
+      <button> <a class="project-deployed-link" href="https://steady-empanada-83da41.netlify.app/" target="_blank" class="see-project">Live💻</a></button>
+      <button><a class="project-github-link" href="https://github.com/pranali412/bustling-wheel-1520" target="_blank" class="github-repo">GitHub</a></button>
      </div>
    </div>
 
-   <div class="projects-box">
+   <div class="project-card">
     <img src="./image/zee5.png" alt="zee5">
+    <div class="projects-descriptions"> <h3 class="project-title">ZEE5</h3> </div>
     <div class="projects-descriptions"> <p>ZEE5 is India’s own digital entertainment platform. ZEE5 is one of the most preferred OTT platforms today for streaming shows , movies , your favourite content across Zee5 Originals, lifestyle shows, Catch up TV, Live TV, Zee5 Exclusives short series, Kids entertainment programs, and acclaimed plays. </p> </div>
-    <div class="projects-tech-stack">
+    <div class="project-tech-stack">
+      <h4 style="padding: 10px;" >Tech Stack</h4>
+      <img src="./image/html1.png" alt="html">
+      <img src="./image/css.png" alt="css">
+      <img src="./image/js.png" alt="js">
+      <img src="./image/react1.png" alt="react">
+      <img src="./image/chakra-ui.jpg" alt="chakra">
+    </div>
+    <div class="projects-button">
+      <button> <a class="project-deployed-link" href="https://startling-quokka-48c918.netlify.app/" target="_blank" class="see-project">Live💻</a></button>
+      <button><a class="project-github-link" href="https://github.com/Surajy001/silent-support-3541" target="_blank" class="github-repo">GitHub</a></button>
+     </div>
+   </div>
+
+   <div class="project-card">
+    <img src="" alt="ABC">
+    <div class="projects-descriptions"> <h3 class="project-title">ABC</h3> </div>
+    <div class="projects-descriptions"> <p></p> </div>
+    <div class="project-tech-stack">
       <h4 style="padding: 10px;">Tech Stack</h4>
       <img src="./image/html1.png" alt="html">
       <img src="./image/css.png" alt="css">
@@ -205,8 +236,8 @@
       <img src="./image/chakra-ui.jpg" alt="chakra">
     </div>
     <div class="projects-button">
-      <button> <a href="https://startling-quokka-48c918.netlify.app/" target="_blank" class="see-project">Live💻</a></button>
-      <button><a href="https://github.com/Surajy001/silent-support-3541" target="_blank" class="github-repo">GitHub</a></button>
+      <button> <a class="project-deployed-link" href="https://startling-quokka-48c918.netlify.app/" target="_blank" class="see-project">Live💻</a></button>
+      <button><a class="project-github-link" href="https://github.com/Surajy001/silent-support-3541" target="_blank" class="github-repo">GitHub</a></button>
      </div>
    </div>
 </div>
@@ -254,7 +285,8 @@
                          <div class="footer">
                                 <h2>Follow Me</h2>
                                 <div class="footer-social">
-                                    <a href="https://linkedin.com/in/suraj-yadav-003626236" target="blank"><i class='bx bxl-linkedin'></i></a>
+                                    <a id="contact-github" href="https://github.com/Surajy001" target="_blank"><i class='bx bxl-github'></i></a>
+                                    <a id="contact-linkedin" href="https://linkedin.com/in/suraj-yadav-003626236" target="blank"><i class='bx bxl-linkedin'></i></a>
                                     <a href="https://instagram.com/surajyadav5389" target="blank"><i class='bx bxl-instagram'></i></a>
                                     <a href="https://www.facebook.com/profile.php?id=100010287579802" target="blank"><i class='bx bxl-facebook'></i></a>
                                     <a href="https://twitter.com/SurajYa25020979" target="blank"><i class='bx bxl-twitter'></i></a>

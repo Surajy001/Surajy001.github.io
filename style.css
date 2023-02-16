@@ -112,7 +112,7 @@ header.shadow {
     cursor: pointer;
 }
 
-.home {
+#home {
     /* position: relative;
     width: 100%;
     min-height: 100vh; */
@@ -129,7 +129,7 @@ header.shadow {
     width: 100%;
 } */
 
-.home-img img {
+.home-img1 img {
     width: 100%;
     border: 1px solid blue;
 }
@@ -189,7 +189,7 @@ header.shadow {
     margin-top: 2rem;
 }
 
-.about-img img {
+.home-img img {
     width: 80%;
     border-radius: 0.5rem;
 }
@@ -293,6 +293,8 @@ span {
 
 .skills-box:hover {
   background-color: #02225a;
+  color: #fff;
+  cursor: pointer;
 }
 
 .skills img{
@@ -309,7 +311,7 @@ span {
   /* border: 1px solid red; */
 }
 
-.projects-box {
+.project-card {
   width: auto;
   display: flex;
   flex-direction: column;
@@ -320,8 +322,9 @@ span {
   box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;
   /* border: 1px solid black; */
   padding-bottom: 6px;
+  cursor: pointer;
 }
-.projects-box img{
+.project-card img{
   width: 100%;
   border-radius: 0.5rem;
 }
@@ -331,11 +334,11 @@ span {
   padding: 10px;
 }
 
-.projects-tech-stack{
-  /* border: 1px solid green; */
-  
-}
-.projects-tech-stack img{
+/* .project-tech-stack{
+  border: 1px solid green;
+} */
+
+.project-tech-stack img{
   width: 10%;
   aspect-ratio: 4/4;
 }
@@ -348,7 +351,7 @@ span {
   padding: 5px;
 }
 
-.projects-box:hover  {
+.project-card:hover  {
   color: #8b8a8f;
 }
 
@@ -397,7 +400,7 @@ form textarea {
 
 .contact-button {
     width: 160px;
-    cursor: pointer;
+    ;
     background: #2768d9;
     color: #fff;
     justify-content: center;
@@ -512,7 +515,7 @@ form textarea {
     display: none;
     }
 
-    .home {
+    #home {
     grid-template-columns: repeat(2,1fr);
     }
 
@@ -521,7 +524,7 @@ form textarea {
     padding-left: 1.4rem;
     }
 
-    .home-img {
+    .home-img1 {
     /* order: initial; */
     width: 100%;  
   }
@@ -530,7 +533,7 @@ form textarea {
     grid-template-columns: 1fr;
     }
 
-    .about-img {
+    .home-img {
     display: flex;
     justify-content: center;
     }
