@@ -355,7 +355,7 @@ span {
   color: #8b8a8f;
 }
 
-.github{
+.react-activity-calendar{
   display: grid;
     grid-template-rows: repeat(1,1fr);
     gap: 2rem;
