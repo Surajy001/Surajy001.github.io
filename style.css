@@ -182,6 +182,22 @@ header.shadow {
 }
 
 
+.resume-button {
+    display: inline-block;
+    background: var(--main-color);
+    color: #fff;
+    padding: 0.5rem 1.3rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    background: #2768d9;
+    letter-spacing: 1px;
+}
+
+.resume-button:hover {
+    background: var(--hover);
+}
+
 .about-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -278,7 +294,7 @@ span {
   margin-top: 2rem;
 }
 
-.skills-box {
+.skills-card {
   padding: 8px;
   width: 150px;
   margin-top: 16px;
@@ -291,7 +307,7 @@ span {
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
 
-.skills-box:hover {
+.skills-card:hover {
   background-color: #02225a;
   color: #fff;
   cursor: pointer;
@@ -329,11 +345,15 @@ span {
   border-radius: 0.5rem;
 }
 
-.projects-descriptions{
-  /* border: 1px solid black; */
+.project-name{
   padding: 10px;
 }
-
+.project-description{
+    /* border: 1px solid black; */
+    padding: 10px;
+    width: 100%;
+    height: 50%;
+  }
 /* .project-tech-stack{
   border: 1px solid green;
 } */
@@ -345,15 +365,29 @@ span {
 
 .projects-button{
   padding: 10px;
+  
+}
+.projects-button a{
+    color: #fff;
+  }
+.button-project-link{
+    display: inline-block;
+    padding: 0.5rem 1.3rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    background: #2768d9;
+    letter-spacing: 1px;
+    color: var(--bg-color);
 }
 
-.projects-button button{
-  padding: 5px;
+.button-project-link:hover {
+    background: var(--hover);
 }
 
-.project-card:hover  {
+/* .project-card:hover  {
   color: #8b8a8f;
-}
+} */
 
 .react-activity-calendar {
     text-align: center;
@@ -402,7 +436,6 @@ form textarea {
 
 .contact-button {
     width: 160px;
-    ;
     background: #2768d9;
     color: #fff;
     justify-content: center;
