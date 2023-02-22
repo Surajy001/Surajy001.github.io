@@ -26,4 +26,18 @@ darkmode.onclick = () => {
   }
 };
 
-                                    
+// src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+
+// GitHubCalendar(".calendar", "Surajy001");
+// or enable responsive functionality
+// GitHubCalendar(".calendar", "Surajy001", { responsive: true });
+      
+
+document.getElementById('resume-link-1').addEventListener("click", () => {
+  window.open("https://drive.google.com/file/d/1qGjl7ovgqoqwhgSDfoDcdGylzN-mgayz/view?usp=sharing", "_blank");
+});
+
+document.getElementById('resume-link-2').addEventListener("click", () => {
+  console.log("OPENinig.....");
+  window.open("https://drive.google.com/file/d/1qGjl7ovgqoqwhgSDfoDcdGylzN-mgayz/view?usp=sharing", "_blank");
+});
