@@ -42,7 +42,7 @@ document.getElementById('resume-link-2').addEventListener("click", () => {
   window.open("https://drive.google.com/file/d/1qGjl7ovgqoqwhgSDfoDcdGylzN-mgayz/view?usp=sharing", "_blank");
 });
 
-document.getElementById('resume-link-3').addEventListener("click", () => {
-  console.log("OPENinig.....");
-  window.open("https://drive.google.com/file/d/1qGjl7ovgqoqwhgSDfoDcdGylzN-mgayz/view?usp=sharing", "_blank");
-});
+// document.getElementById('resume-link-3').addEventListener("click", () => {
+//   console.log("OPENinig.....");
+//   window.open("https://drive.google.com/file/d/1qGjl7ovgqoqwhgSDfoDcdGylzN-mgayz/view?usp=sharing", "_blank");
+// });
