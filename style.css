@@ -313,7 +313,7 @@ span {
   cursor: pointer;
 }
 
-.skills img{
+#skills img{
   width: 60%;
   aspect-ratio: 4/4;
 }
@@ -578,16 +578,6 @@ form textarea {
 
     .skills-container {
     grid-template-columns: 1fr;
-    }
-
-    .skills-img img {
-    padding-left: 0;
-    }
-
-    .skills-img {
-    padding-top: 2rem;
-    display: flex;
-    justify-content: center;
     }
 
     .contact-form form {
